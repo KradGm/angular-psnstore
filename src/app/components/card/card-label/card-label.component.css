@@ -1,0 +1,18 @@
+.label-container{
+	position: absolute;
+	bottom: 90px;
+	right: 0;
+}
+.label-text{
+	display: flex;
+	align-items: center;
+	background-color: #0d0d0de1;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color: white;
+	font-size: 12px;
+	font-family: 'segoe UI';
+	font-weight: bold;
+	height: 40px;
+	padding: 0px 40px
+}

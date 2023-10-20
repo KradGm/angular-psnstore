@@ -1,0 +1,33 @@
+.price-container{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.822);
+	padding: 10px;
+	color: antiquewhite;
+	font-family: Calibri;
+}
+
+.price-title{
+	margin-bottom: 3px;
+}
+.price-value{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.price-value-console{
+display: flex;
+flex-direction: row;
+}
+.price-value-console span{
+color:aqua;
+font-weight: bolder;
+margin-right: 10px;
+}
